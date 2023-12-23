@@ -1,7 +1,7 @@
 # Biblioteca de Visão Computacional em C
 
 ## Introdução
-Esta biblioteca fornece funcionalidades básicas de visão computacional em C, incluindo carregamento, manipulação e salvamento de imagens no formato BMP. Com foco em operações como detecção de bordas e desfoque gaussiano, ela é adequada para projetos e aplicações que necessitam de processamento básico de imagens.
+Esta biblioteca fornece funcionalidades básicas de visão computacional em C, incluindo carregamento, manipulação e salvamento de imagens no formato BMP. Com foco em operações como detecção de bordas e desfoque gaussiano, ela é adequada para projetos e aplicações que necessitam de processamento básico de imagens (mais funcionalidades serao adicionadas futuramente, no momento existem 2 somente).
 
 ## Instalação
 Para usar a biblioteca, inclua os arquivos `compvision.h` e `compvision.c` no seu projeto C.
