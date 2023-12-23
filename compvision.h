@@ -33,7 +33,7 @@ typedef struct {
     unsigned char reserved;
 } bmp_palette_element_t;
 
-int loadBMP(const char *filename, unsigned char **data, int *width, int *height);
-int saveBMP(const char* filename, const unsigned char *data, int width, int height);
+int loadBMP(const char* filename, unsigned cha** data, int* width, int* height);
+int saveBMP(const char* filename, const unsigned char* data, int width, int height);
 void applyEdgeDetection(unsigned char* data, int width, int height);
 void applyGaussianBlur(unsigned char* data, int width, int height);
