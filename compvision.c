@@ -1,7 +1,7 @@
 #include "compvision.h"
 
-int loadBMP(const char *filename, unsigned char **data, int *width, int *height) {
-    FILE *file;
+int loadBMP(const char* filename, unsigned char** data, int* width, int* height) {
+    FILE* file;
     int16_t magic_number;
     bmp_file_header_t file_header;
     bmp_bitmap_info_header_t info_header;
@@ -42,8 +42,8 @@ int loadBMP(const char *filename, unsigned char **data, int *width, int *height)
     return 0;
 }
 
-int saveBMP(const char* filename, const unsigned char *data, int width, int height) {
-    FILE *file;
+int saveBMP(const char* filename, const unsigned char* data, int width, int height) {
+    FILE* file;
     int16_t magic_number = BITMAP_MAGIC_NUMBER;
     bmp_file_header_t file_header;
     bmp_bitmap_info_header_t info_header;
